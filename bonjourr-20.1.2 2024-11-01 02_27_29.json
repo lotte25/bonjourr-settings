@@ -1,0 +1,168 @@
+{
+  "about": {
+    "browser": "firefox",
+    "version": "20.1.2"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "disable",
+  "favicon": "",
+  "tabtitle": "Charlotte's New Tab",
+  "greeting": "",
+  "pagegap": 3.5,
+  "pagewidth": 1700,
+  "time": true,
+  "main": true,
+  "dateformat": "auto",
+  "background_blur": 0,
+  "background_bright": 0.53,
+  "background_type": "local",
+  "quicklinks": true,
+  "syncbookmarks": null,
+  "textShadow": 0,
+  "announcements": "major",
+  "review": 5,
+  "css": "",
+  "hide": {},
+  "linkstyle": "inline",
+  "linktitles": true,
+  "linkbackgrounds": false,
+  "linknewtab": false,
+  "linksrow": 6,
+  "linksocflep": {
+    "_id": "linksocflep",
+    "parent": "default",
+    "order": 1,
+    "title": "YouTube Music",
+    "url": "https://music.youtube.com"
+  },
+  "linksnlkprd": {
+    "_id": "linksnlkprd",
+    "parent": "default",
+    "order": 0,
+    "title": "GitHub",
+    "url": "https://github.com"
+  },
+  "linkgroups": {
+    "on": false,
+    "selected": "default",
+    "groups": [
+      "default"
+    ],
+    "pinned": [],
+    "synced": []
+  },
+  "clock": {
+    "ampm": true,
+    "size": 1,
+    "analog": false,
+    "seconds": true,
+    "timezone": "auto",
+    "ampmlabel": false,
+    "worldclocks": false
+  },
+  "analogstyle": {
+    "face": "none",
+    "hands": "modern",
+    "shape": "round",
+    "border": "#ffff",
+    "background": "#fff2"
+  },
+  "worldclocks": [],
+  "unsplash": {
+    "every": "hour",
+    "collection": "",
+    "lastCollec": "night",
+    "time": 1730438025002
+  },
+  "weather": {
+    "ccode": "CL",
+    "city": "la calera",
+    "unit": "metric",
+    "provider": "",
+    "moreinfo": "none",
+    "forecast": "auto",
+    "temperature": "actual",
+    "geolocation": "approximate"
+  },
+  "notes": {
+    "on": true,
+    "background": "#fff0",
+    "width": 20,
+    "opacity": 0.1,
+    "align": "left",
+    "text": "how is it today, sweetie?"
+  },
+  "searchbar": {
+    "on": true,
+    "width": 32,
+    "opacity": 0.1,
+    "newtab": false,
+    "suggestions": true,
+    "engine": "default",
+    "request": "",
+    "placeholder": "                    search something up!"
+  },
+  "quotes": {
+    "on": false,
+    "author": false,
+    "type": "classic",
+    "frequency": "day",
+    "last": 1730438024552
+  },
+  "font": {
+    "size": "14.5",
+    "family": "Comfortaa",
+    "system": true,
+    "weight": "400",
+    "weightlist": [
+      "300",
+      "400",
+      "600",
+      "700",
+      "800"
+    ]
+  },
+  "move": {
+    "selection": "single",
+    "layouts": {
+      "single": {
+        "items": {
+          "time": {
+            "text": "center",
+            "box": "center baseline"
+          },
+          "main": {
+            "text": "",
+            "box": "center baseline"
+          },
+          "quicklinks": {
+            "text": "",
+            "box": "end center"
+          },
+          "notes": {
+            "text": "",
+            "box": "center baseline"
+          }
+        },
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "notes"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "quicklinks"
+          ]
+        ]
+      }
+    }
+  }
+}
